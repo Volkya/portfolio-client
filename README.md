@@ -1,3 +1,8 @@
+# Doc
+
+- Componentes: me, skills, web, photography, recipes, music, contact, blog, tienda, mi equipo, 
+- Services: recipes, blog, tienda (apis)
+
 # Volkeatworld
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
