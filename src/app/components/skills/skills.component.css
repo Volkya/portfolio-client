@@ -1,0 +1,15 @@
+mat-card{
+  margin: auto;
+  display: block;
+  width: 35%;
+  margin-top: 2rem;
+}
+
+
+mat-tab-group{
+
+}
+
+mat-tab{
+  text-align: center;
+}
