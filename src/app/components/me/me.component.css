@@ -8,3 +8,12 @@ mat-card {
 .example-card {
   max-width: 400px;
 }
+
+
+.example-header-image{
+  background-image: url("../../../assets/img/volk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  background-size: cover;
+}
