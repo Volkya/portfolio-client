@@ -1,4 +1,8 @@
+<h1>
+  <fa-icon [icon]="faGithub"></fa-icon>Github
+</h1>
 <mat-card class="example-card">
+
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>Matt D. Correa</mat-card-title>
@@ -10,5 +14,46 @@
       Mi nombre es Matt, soy programador fronted desde la joven edad de 12 años, empece con el backend alrededor de hace 4 años. Programar suele ser incluso un pasatiempo que me entretiene;
       generalmente soy muy inquieto y me gusta indagar mucho sobre tecnologia.
     </p>
+
+
+
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th scope="col">Type</th>
+        <th scope="col">Column heading</th>
+        <th scope="col">Column heading</th>
+        <th scope="col">Column heading</th>
+      </tr>
+      </thead>
+      <tbody>
+
+      <tr class="table-primary">
+        <th scope="row">Primary</th>
+        <td>Column content</td>
+        <td>Column content</td>
+        <td>Column content</td>
+      </tr>
+
+      </tbody>
+    </table>
+
+
+
   </mat-card-content>
+  <mat-card-footer>
+    <button type="button" class="btn btn-primary btn-lg">Download CV</button>
+  </mat-card-footer>
 </mat-card>
+
+
+
+<!--<mat-grid-list cols="4" rowHeight="100px">-->
+<!--  <mat-grid-tile-->
+<!--    *ngFor="let tile of tiles"-->
+<!--    [colspan]="tile.cols"-->
+<!--    [rowspan]="tile.rows"-->
+<!--    [style.background]="tile.color">-->
+<!--    {{tile.text}}-->
+<!--  </mat-grid-tile>-->
+<!--</mat-grid-list>-->
