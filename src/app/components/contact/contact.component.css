@@ -8,3 +8,8 @@ mat-card {
 .example-card {
   max-width: 400px;
 }
+
+
+mat-form-field.mat-form-field {
+  font-size: 16px;
+}
